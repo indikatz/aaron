@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+body{
+background: rgb(9,9,121);
+background: linear-gradient(14deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+height:100vh;
+overflow:hidden;
+font-family: 'Inter', sans-serif;
+}
+#maincontainer{
+background: rgb(255,255,255);
+border-radius: 5vh;
+width:73vw;
+height:75vh;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-left: 8vw;
+padding-right: 8vw;
+margin-top:15vh;
+margin-bottom:5vh;
+text-align:center;
+z-index:0;
+}
+@media only screen and (min-width: 1000px) {
+   #maincontainer{
+width:60vw;
+}
+}
+#icon{
+margin-top:-10vh;
+z-index:2;
+height:20vh;
+border-radius: 50%;
+}
+#name{
+font-size:5vh;font-weight:bold;
+}
+#links{
+list-style-type:none;
+    padding-left: 0px;
+font-size:3vh;
+line-height:4vh;
+}
+a{
+text-decoration:none;
+transition:0.2s ease;
+}
+#links a{color: #000;}
+#links a:hover {color: #aaa; transition:0.5s;}
+#footer{
+color:#fff;
+text-align:center;
+}
+#footer a{color: #FFF;}
+#footer a:hover {color: #6BF;}
+
+
+</style>
+<body>
+<div id="maincontainer">
+<div><img id="icon" src="https://scontent-atl3-2.cdninstagram.com/v/t51.2885-19/s150x150/159542083_262643938744848_6740504515072798200_n.jpg?tp=1&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_ohc=RmPjaxwRBd4AX8T2SX2&edm=ABfd0MgAAAAA&ccb=7-4&oh=d7aa177410f4d22ef40077c4d5eb26c2&oe=6093FF9D&_nc_sid=7bff83"></div><div id="name"><p>Aaron Miller</p></div>
+<ul id="links">
+<li><a href="tel:+13869836684">Phone</a></li>
+<li><a href="http://youtube.com/leadready">YouTube</a></li>
+<li><a href="http://pughost.rf.gd">Personal Site</a></li>
+</ul>
+</div>
+<div id="footer">Powered by <a>Tiedot</a></div>
+</body>
+
+</html>
